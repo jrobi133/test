@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
-  "type": "module",
   "scripts": {
     "start": "nodemon index.js",
     "watch": "nodemon"
@@ -19,6 +18,7 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "mongoose": "^5.9.29",
-    "concurrently": "^4.1.0"
+    "concurrently": "^4.1.0",
+    "axios": "^0.18.0"
   }
 }
